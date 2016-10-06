@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="1" parallel="tests">
+ 
+<parameter name="author" value="Guru99" />
+ 
+<parameter name="searchkey" value="India" />
+ 
+<test name="testGuru1">
+ 
+<parameter name="searchkey" value="UK" />
+ 
+<classes>
+ 
+<class name="FirstTestNGPackage.TestParameterswithXmlFile">
+ 
+</class>
+ 
+</classes>
+ 
+</test>
+<test name="testGuru2">
+ 
+<parameter name="searchkey" value="USA" />
+ 
+<classes>
+ 
+<class name="FirstTestNGPackage.TestParameterswithXmlFile">
+ 
+</class>
+ 
+</classes>
+ 
+</test>
+
+ 
+</suite>
